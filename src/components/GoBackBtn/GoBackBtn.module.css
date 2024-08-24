@@ -1,0 +1,17 @@
+.link {
+  color: white;
+  display: inline-block;
+  letter-spacing: 0.06em;
+  border: 1px solid rgb(243, 243, 6);
+  border-radius: 4px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 6px 18px;
+  background-color: gray;
+  transition: background-color 0.3s cubic-bezier(0.7, 0.98, 0.86, 0.98);
+}
+
+.link:hover,
+.link:focus {
+  background-color: gainsboro;
+}

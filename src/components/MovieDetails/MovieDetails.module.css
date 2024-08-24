@@ -1,0 +1,66 @@
+.posterImg {
+  max-width: 350px;
+  margin-bottom: 20px;
+}
+
+.posterTitl {
+  font-size: 24px;
+  margin: 0;
+}
+.posterTitlinfo {
+  font-size: 18px;
+}
+.posterInfo {
+  font-size: 16px;
+  margin-bottom: 16px;
+}
+.genresList {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.genresItem {
+  display: inline;
+  margin-right: 8px;
+  font-size: 16px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.posterTitlinfo {
+  margin: 20px 0 5px;
+  font-size: 20px;
+}
+
+.listInfo {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.itemInfo {
+  margin-bottom: 8px;
+}
+.linkInfo {
+  color: #1b1511;
+  text-decoration-line: underline;
+  font-size: 16px;
+}
+.linkInfo:hover {
+  color: #ff7b00;
+}
+.active {
+  color: #fffb00f1;
+}
+
+@media (min-width: 768px) {
+  .poster {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+  }
+}
